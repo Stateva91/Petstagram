@@ -1,7 +1,7 @@
 {
   "name": "petstagram",
   "version": "1.0.0",
-  "description": "",
+  "description": "Completed JS project called \"Petstagram\". \r The project covers the following functionalities: user registration, login, and logout; \r any user can add pets to their profile and upload photos of pets; \r the user can browse all pet photos, open details, and like and comment photos.\r Any user can edit and delete their pet photos and information.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js"

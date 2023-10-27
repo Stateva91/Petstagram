@@ -4,6 +4,7 @@ const photoSchema=new mongoose.Schema({
     name: {
         type: String,
         required: [true,'Name is required'],
+        minLength: [2, 'Name should be at least 2 characters'],
     },
     image: {
         type: String,
